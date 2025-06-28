@@ -258,6 +258,9 @@ body {
   min-height: 320px;
   border-radius: 10px;
 }
+.interest-container__card img:hover{
+  opacity: 0.7;
+}
 .interest-container__text {
   position: absolute;
   left: 0px;
@@ -303,6 +306,9 @@ body {
   height: 100%;
   border-radius: 10px;
   margin-bottom: 8px;
+}
+.explore__card img:hover{
+  opacity: 0.7;
 }
 .explore__card h3,
 p {
@@ -351,6 +357,9 @@ p {
   width: 100%;
   height: 70%;
   border-radius: 10px;
+}
+.inspiration__card img:hover{
+  opacity: 0.7;
 }
 .inspiration__card h3 {
   padding: 10px 40px;
@@ -403,6 +412,9 @@ p {
   /* min-height: 310px; */
   border-radius: 10px;
   margin-bottom: 8px;
+}
+.thing__card img:hover{
+  opacity: 0.7;
 }
 .thing__card h3,
 p {
@@ -458,6 +470,9 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+.places-container__card img:hover{
+  opacity: 0.7;
 }
 .places-container__text {
   position: absolute;
@@ -640,6 +655,9 @@ p {
   border-radius: 10px;
   object-fit: cover;
 }
+.bcollection__card img:hover{
+  opacity: 0.7;
+}
 .bcollection__text {
   position: absolute;
   left: 0px;
@@ -708,6 +726,11 @@ p {
   padding: 5px 10px;
   font-weight: bold;
   border-radius: 10px;
+}
+.footer-container__content1 p:hover, 
+.footer-container__content2 p:hover, 
+.footer-container__content3 p:hover{
+  text-decoration: underline;
 }
 
 
