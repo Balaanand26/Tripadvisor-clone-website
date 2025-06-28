@@ -739,17 +739,18 @@ p {
       padding: 0px 40px;
   }
   .navbar__link{
-    display: none;
-  }
-  .navbar__btn{
-    display: none;
-  }
-  .navbar-icon{
     display: block;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    gap: 15px;
+  }
+  .navbar__btn{
+    display: block;
+    display: flex;
+    gap: 10px;
+  }
+  .navbar-icon{
+    display: none;
+  
   }
   .poster-about{
     padding: 0px 40px;
