@@ -844,6 +844,18 @@ p {
 }
 
 @media screen and (max-width:800px) {
+  .navbar__link{
+    display: none;
+  }
+  .navbar__btn{
+    display: none;
+  }
+  .navbar-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
   .search-area__categories{
     display: flex;
     flex-direction: column;
